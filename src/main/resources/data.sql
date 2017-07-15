@@ -1,7 +1,6 @@
-BEGIN
-insert into booking(booking_name) value('FirstBook');
-insert into booking(booking_name) value('SecondBook');
-insert into booking(booking_name) value('TestBookOne');
-insert into booking(booking_name) value('TestBookTwo');
-END;
-/
+insert into booking values(1,'FirstBook');
+insert into booking values(2,'SecondBook');
+--insert into booking(booking_name) values('autobook');
+--insert into booking(booking_name) values("SecondBook");
+--insert into booking(booking_name) values("TestBookOne");
+--insert into booking(booking_name) values("TestBookTwo");
